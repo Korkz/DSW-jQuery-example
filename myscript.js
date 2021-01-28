@@ -4,7 +4,7 @@ $(document).ready(function() {
 		$("img").css("border","25px solid black");
 	});
 	$("#p1").click(function() {
-                $(".disappear").hide();	
+                $(".disappear").toggle(1000);	
 	});
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
